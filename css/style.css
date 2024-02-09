@@ -28,29 +28,29 @@
     text-decoration: none;
 }
 .mv {
-    height: 680px;
+    height: calc((680vw / 1440) * 100);
     position: relative;
 }
 .mv__ttl {
-    font-size: 70px;
+    font-size: calc((70vw / 1440) * 100);
     font-weight: normal;
     position: absolute;
-    bottom: 200px;
+    bottom: calc((200vw / 1440) * 100);
     z-index: 2;
 }
 .mv__ph {
     width: 50%;
-    height: 480px;
+    height: calc((480vw / 1440) * 100);
     object-fit: cover;
     position: absolute;
     right: 0;
-    top: 98px;
+    top: calc((98vw / 1440) * 100);
     z-index: 1;
 }
 .mv__box {
     background: #00277e;
     width: 75%;
-    height: 200px;
+    height: calc((200vw / 1440) * 100);
     position: absolute;
     left: 0;
     bottom: 0;
